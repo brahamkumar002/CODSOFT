@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=VT323&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    color: #0e0e0e;
+    background: #fefefe;
+
+}
+
+span {
+    color: #afb5c5;
+    top: 42px;
+    left: 80px;
+    position: relative;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+:root {
+    font-family: "Roboto Mono", monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    height: 625px;
+    width: 470px;
+    max-width: 100vw;
+    border-radius: 25px;
+    background: #e8e8e8;
+    box-shadow: 10px 10px 20px #c8c8c8, -10px -10px 20px #ffffff;
+    padding: 20px 25px;
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    font-family: inherit;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.input {
+    cursor: not-allowed;
+    height: 100px;
+    outline: none;
+    border-radius: 10px;
+    background: #b8bec1;
+    box-shadow: inset 10px 10px 20px #a9afb2, inset -10px -10px 20px #c7cdd0;
+    padding: 20px;
+    font-size: 5em;
+    font-family: "VT323", monospace;
+}
+
+.operand,
+.number,
+.input {
+    border-radius: 25px;
+    border: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    outline: none;
+    transition: box-shadow 0.4s ease-in-out, background 0.4s linear;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #9ca2a4, -10px -10px 20px #d4dbde;
+
+    &:hover {
+        box-shadow: 10px 10px 20px #9ca2a4, -10px -10px 20px #d4dbde;
+    }
+
+    &:focus {
+        box-shadow: 10px 10px 20px #9ca2a4, -10px -10px 20px #d4dbde;
+    }
+}
+
+.operand {
+    background: linear-gradient(145deg, #5bc6ff, #4da7db);
+
+    &:hover {
+        background: #55b9f3;
+    }
+
+    &:active {
+        background: linear-gradient(145deg, #4da7db, #5bc6ff);
+    }
+}
+
+.urgent {
+    background: linear-gradient(145deg, #f8ff59, #d1db4b);
+
+    &:hover {
+        background: #e8f353;
+    }
+
+    &:active {
+        background: linear-gradient(145deg, #d1db4b, #f8ff59);
+    }
+}
+
+.action {
+    background: linear-gradient(145deg, #ffffff, #dadada);
+
+    &:hover {
+        background: #f2f2f2;
+    }
+
+    &:active {
+        background: linear-gradient(145deg, #dadada, #ffffff);
+    }
+}
+
+.number {
+    background: linear-gradient(145deg, #f8f8f8, #d1d1d1);
+
+    &:hover {
+        background: #e8e8e8;
+    }
+
+    &:active {
+        background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+    }
+}
+
+em {
+    font-style: normal;
+}
+
+h1 {
+    margin-bottom: 0;
+}
