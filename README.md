@@ -10,7 +10,7 @@ In this repository, I present my Three significant tasks I accomplished during m
 ## Task 2: Landing Page-website
 <b>Task Description:</b> Design and develop a sleek, user-friendly landing page website for showcasing interns'  projects and accomplishments. Ensure responsiveness across devices and integrate individual profiles with project showcases. Implement a clean layout that reflects the company's brand identity and fosters easy navigation. Include a blog section for interns to share insights and experiences, enhancing engagement. This task provides interns with a hands-on opportunity to contribute to the company's digital presence while honing their web development skills.
 
-## Task 2: Calculator-web-app
+## Task 3: Calculator-web-app
 <b>Task Description:</b> Design and develop a sleek, user-friendly calculator web app for showcasing interns'  projects and accomplishments. Ensure responsiveness across devices and integrate individual profiles with project showcases. Implement a clean layout that reflects the company's brand identity and fosters easy navigation. Include a blog section for interns to share insights and experiences, enhancing engagement. This task provides interns with a hands-on opportunity to contribute to the company's digital presence while honing their web development skills.
 
 
